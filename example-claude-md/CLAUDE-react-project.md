@@ -1,6 +1,6 @@
-# Web Dev Final Project
+# React Web App
 
-React app for my Web Development class.
+React frontend project.
 
 ## Rules
 - React 18 with functional components only (no class components)
@@ -23,6 +23,6 @@ React app for my Web Development class.
 - npm run build (creates production build)
 
 ## API
-- We use a mock API at http://localhost:3001
+- Mock API at http://localhost:3001
 - Start it with: npm run api
 - Endpoints: GET /tasks, POST /tasks, DELETE /tasks/:id

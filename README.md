@@ -26,7 +26,7 @@ I did the same thing freshman year. There are tools now that make this whole cyc
   - [Gemini CLI](#gemini-cli)
 - [Your First 15 Minutes](#your-first-15-minutes)
 - [How to Actually Talk to These Tools](#how-to-actually-talk-to-these-tools)
-- [Real Student Examples](#real-student-examples)
+- [Real Examples](#real-examples)
 - [Mistakes Every Beginner Makes](#mistakes-every-beginner-makes)
 - [Which Tool Should I Use?](#which-tool-should-i-use)
 - [The One File That Changes Everything](#the-one-file-that-changes-everything)
@@ -64,7 +64,7 @@ ChatGPT is like texting someone photos of your code and asking for help. These t
 
 Honestly? This changed how I build stuff. Here's what's different:
 
-- **Things take way less time.** Not because the AI does your homework, but because you stop burning hours on syntax errors, environment issues, and dependency hell.
+- **Things take way less time.** You stop burning hours on syntax errors, environment issues, and dependency hell.
 - **You actually learn more.** The AI is working in YOUR project, explaining YOUR code. Not some random example from the internet that doesn't match what you're building.
 - **Debugging is completely different.** Instead of copying an error message into ChatGPT and hoping it understands your setup, the tool already sees everything. It reads the file, finds the bug, and explains what went wrong.
 - **You pick up real dev tools by accident.** Git, terminal commands, testing, project structure -- you learn it just by watching the AI use it.
@@ -252,11 +252,11 @@ It remembers the whole conversation so use that.
 
 ---
 
-## Real Student Examples
+## Real Examples
 
-Some actual things you can try:
+Some things you can try:
 
-### Stuck on a data structures assignment
+### Building something from scratch
 
 ```
 I need to implement a binary search tree in Java. 
@@ -265,15 +265,15 @@ search, and delete methods. Help me write them and
 walk me through the logic.
 ```
 
-### No idea how to set up a project
+### Setting up a project you've never done before
 
 ```
-I need to create a React app for my web dev class. 
-Set up the project, create a basic file structure, 
-and add a homepage component. I've never used React before.
+I want to create a React app. Set up the project, 
+create a basic file structure, and add a homepage 
+component. I've never used React before.
 ```
 
-### Can't find a bug
+### Debugging
 
 ```
 My Python script reads a CSV and calculates the average 
@@ -283,7 +283,7 @@ Look at my code and tell me what's wrong.
 
 It's going to read your actual files, find the problem, fix it, and tell you what happened. No more copying error messages back and forth.
 
-### Never used git
+### Learning git
 
 ```
 I've never used git. Initialize a repo for this project, 
@@ -296,11 +296,11 @@ walk me through the basics, and help me make my first commit.
 
 ### 1. Not reading the code
 
-The tool writes code fast. That doesn't mean you should just accept it and move on. If you can't explain what it wrote, you're going to get destroyed on exams and code reviews. Always read it. If something doesn't make sense, ask.
+The tool writes code fast. That doesn't mean you should just accept it and move on. If you can't explain what a piece of code does, ask the tool to explain it. You'll learn more that way and you'll actually remember it.
 
 ### 2. Blindly trusting the output
 
-AI gets things wrong. It might use a library your professor doesn't allow, over-engineer a simple assignment, or write something that works but breaks your project's requirements. Check it against what you actually need to turn in.
+AI gets things wrong. It might over-engineer something simple, use the wrong approach, or write something that works but doesn't match what you actually needed. Always review the output against your own requirements.
 
 ### 3. Being in the wrong folder
 
@@ -316,15 +316,6 @@ Always cd into your project first.
 ### 4. Vague prompts
 
 "Make a website" vs "Build a recipe website with a search bar, recipe cards with images, and a favorites feature" -- these are going to give you completely different results. Put in a little effort on the prompt and the output gets way better.
-
-### 5. Using it as a ghostwriter instead of a tutor
-
-Look, I get it. It's tempting to just generate everything and turn it in. But then you:
-- Can't explain your code when the professor asks
-- Bomb the exam because you never learned the material
-- Fall behind in every class that builds on this one
-
-Use it to learn faster, not to skip learning. There's a big difference.
 
 ---
 
@@ -355,12 +346,12 @@ Each tool has a special file you can drop in your project folder. It's basically
 | Codex CLI | `AGENTS.md` |
 | Gemini CLI | `GEMINI.md` |
 
-Here's an example. Say you're in a Java class -- create a file called `CLAUDE.md` in your project root:
+Here's an example. Say you're building a Java Spring Boot project -- create a file called `CLAUDE.md` in your project root:
 
 ```markdown
-# CS 2340 Project
+# My Java Project
 
-Java Spring Boot app for Objects & Design.
+Java Spring Boot app.
 
 ## Rules
 - Java 17 only

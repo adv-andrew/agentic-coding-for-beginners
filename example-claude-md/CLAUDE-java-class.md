@@ -1,11 +1,11 @@
-# CS 1331 - Intro to Object-Oriented Programming
+# Java OOP Project
 
-Java project for my OOP class.
+Java project using object-oriented programming principles.
 
 ## Rules
 - Java 17
 - No external libraries (standard library only)
-- Follow professor's style guide: camelCase methods, PascalCase classes
+- camelCase methods, PascalCase classes
 - Every public method needs a Javadoc comment
 - No wildcard imports (use specific imports)
 
@@ -21,7 +21,7 @@ Java project for my OOP class.
 - javac -cp .:junit-5.jar tests/*.java
 - java -cp .:junit-5.jar org.junit.runner.JUnitCore TestSuite
 
-## Assignment Requirements
+## Constraints
 - Must implement Comparable interface
 - Must override toString(), equals(), and hashCode()
 - No use of ArrayList (must use arrays)
