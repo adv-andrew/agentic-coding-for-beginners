@@ -11,6 +11,12 @@ I know most of y'all are doing this right now:
 5. Pray it works
 6. It doesn't. Back to step 2
 
+<p align="center">
+  <img src="https://i.imgflip.com/6026az.png" width="300" alt="Willem Dafoe looking up in pain">
+  <br>
+  <i>you, 4 hours into a bug that turned out to be a missing semicolon</i>
+</p>
+
 I did the same thing freshman year. There are tools now that make this whole cycle obsolete and most CS students have no idea they exist. That's why I made this.
 
 ---
@@ -57,6 +63,12 @@ Easiest way to think about it:
 | Fixes its own mistakes? | Only if you paste the error | Sees the error and retries |
 
 ChatGPT is like texting someone photos of your code and asking for help. These tools are like someone sitting next to you with access to your laptop.
+
+<p align="center">
+  <img src="https://i.kym-cdn.com/entries/icons/original/000/022/255/Blinking_White_Guy_meme_banner.jpg" width="350" alt="Blinking white guy meme">
+  <br>
+  <i>when you realize you've been copy-pasting from ChatGPT this whole time and these tools existed</i>
+</p>
 
 ---
 
@@ -331,6 +343,12 @@ On a Chromebook? ..... claude.ai/code (browser)
 ```
 
 They all do basically the same thing. Seriously just pick one. You're not signing a contract.
+
+<p align="center">
+  <img src="https://i.imgflip.com/61ubwh.png" width="400" alt="Pedro Pascal laughing then crying">
+  <br>
+  <i>me spending 3 days comparing tools instead of just picking one and building something</i>
+</p>
 
 ---
 
