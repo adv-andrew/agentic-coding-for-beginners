@@ -80,8 +80,8 @@ There are three big ones right now. All of them are free to start with.
 | Tool | Made By | Free Tier | Best For |
 |---|---|---|---|
 | **Claude Code** | Anthropic | Yes (with limits) | Best overall in my experience |
-| **Codex CLI** | OpenAI | Yes (with limits) | If you already use ChatGPT/OpenAI |
-| **Gemini CLI** | Google | Yes (with limits) | Generous free tier |
+| **Codex CLI** | OpenAI | Yes (with limits) (comes with $20 plan) | If you already use ChatGPT/OpenAI |
+| **Gemini CLI** | Google | Yes (with limits) (pro 1 year free if student) | Generous free tier |
 
 You don't need all three. Just pick one and try it. You can always switch later.
 
